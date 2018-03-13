@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+<!--let data = {title: 'beijing', files: [{name: 'wudaokou',url: 'ditie'}]-->
+<ul>
+    {{#each files}}
+    <li>
+        <a href="{{url}}">{{name}}</a>
+    </li>
+    {{/each}}
+</ul>
+</body>
+</html>
